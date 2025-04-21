@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.form-container {
+  display: flex;
+}
+
+.left-column {
+  width: 200px;
+}
+
+.photo-box {
+  width: 120px;
+  height: 150px;
+  border: 2px solid black;
+  margin-bottom: 20px;
+  overflow: hidden; /* Menambahkan overflow untuk menjaga gambar tetap dalam batas */
+}
+
+.photo-box img {
+  width: 100%;
+  height: auto; /* Menjaga proporsi gambar */
+}
+
+.right-column {
+  flex: 1;
+  margin-left: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 120px;
+  margin-top: 10px;
+  color: brown;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="file"] {
+  width: 300px;
+  padding: 5px;
+  margin-top: 10px;
+  border: 1px solid black;
+}
+
+.input-row {
+  margin-bottom: 10px;
+}
+
+.radio,
+.checkbox {
+  margin-left: 120px;
+  margin-top: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  margin-bottom: 30px; /* Tambahkan margin bawah */
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th {
+  text-align: center;
+  background-color: #eee;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #337ab7;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #286090;
+}
+
+input[type="text"]:hover,
+input[type="date"]:hover,
+input[type="file"]:hover {
+  border-color: #337ab7; /* Efek hover pada input */
+}
+
+button:active {
+  background-color: #1e5a8a; /* Efek saat button ditekan */
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: gray;
+}
